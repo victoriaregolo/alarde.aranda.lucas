@@ -17,6 +17,10 @@ a {
   color: rgb(146, 0, 0);
   font-weight: bold;
   font-family: "IM Fell DW Pica", serif;
+  transition: color ;
+}
+a:hover {
+  color: rgb(255, 165, 112);
 }
 .classNavUl {
   list-style-type: none;
@@ -77,6 +81,12 @@ h2 {
   margin: 5px;
   display: flex;
   justify-content: center;
+  background-image: url("../assets/img/fondocarta.jpg");
+  transform: skewX(-20deg);
+  transition: margin 3s;
+}
+.main_section--iframe:hover{
+  margin: 50px;
 }
 .footer_div--decoracion {
   background-image: url("../assets/img/fondofooterr.jpg");
@@ -646,6 +656,10 @@ footer {
     color: rgb(146, 0, 0);
     font-weight: bold;
     font-family: "IM Fell DW Pica", serif;
+    transition: color ;
+  }
+  a:hover {
+    color: rgb(255, 165, 112);
   }
   .classNavUl {
     list-style-type: none;
@@ -703,7 +717,10 @@ footer {
     margin: 0px;
   }
   .main_section--iframe {
-    width: 98%;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    transform: skewX(-20deg);
   }
   .footer_div--decoracion {
     background-image: url("../assets/img/fondofooterr.jpg");
@@ -1160,6 +1177,10 @@ footer {
     color: rgb(146, 0, 0);
     font-weight: bold;
     font-family: "IM Fell DW Pica", serif;
+    transition: color ;
+  }
+  a:hover {
+    color: rgb(255, 165, 112);
   }
   .classNavUl {
     list-style-type: none;
@@ -1322,13 +1343,11 @@ footer {
   .div_img--border {
     border-radius: 28px;
   }
-  .main_section--titulos {
-    font-size: 50px;
-    color: rgb(146, 0, 0);
-    font-weight: bold;
-    font-family: "Arvo";
+  .main_section--iframe {
+    margin: 5px;
     display: flex;
     justify-content: center;
+    transform: skewX(-20deg);
   }
   h2 {
     margin: auto;
