@@ -188,6 +188,11 @@ a {
   height: 503px;
   list-style-type: none;
   border: solid black 5px;
+  transition: border ;
+}
+.section_img--decoracion:hover {
+  border: solid  10px  rgb(255, 165, 112);
+  border-radius: 10px;
 }
 .footer_div--decoracion {
   background-image: url("../assets/img/fondofooterr.jpg");
@@ -311,6 +316,13 @@ a {
   border-radius: 200px;
   background-color: grey;
 }
+@keyframes sucursales {
+  0% { width: 100%; }
+  30% { transform:rotateY(100deg);}
+  60% { width: 100%; }
+  90% { transform:rotateX(100deg)}
+  100% {width: 100%;}
+}
 .div_img--posicion {
   border: solid black 5px;
   border-radius: 250px;
@@ -320,6 +332,10 @@ a {
   width: 100%;
   height: 500px;
   margin: 10px;
+  animation-name: sucursales  ;
+  animation-duration: 10s;
+  animation-iteration-count: 2;
+  animation-timing-function: ease-in;
 }
 .footer_div--decoracion {
   background-image: url("../assets/img/fondofooterr.jpg");
@@ -828,6 +844,10 @@ footer {
     list-style-type: none;
     border: solid black 1px;
   }
+  .section_img--decoracion:hover {
+    border: solid  10px  rgb(255, 165, 112);
+    border-radius: 10px;
+  }
   .footer_div--decoracion {
     background-image: url("../assets/img/fondofooterr.jpg");
     width: 100%;
@@ -955,10 +975,26 @@ footer {
     border-radius: 50px;
     background-color: grey;
   }
+  @keyframes sucursales {
+    0% { width: 100%; }
+    30% { transform:rotateY(100deg);}
+    60% { width: 100%; }
+    90% { transform:rotateX(100deg)}
+    100% {width: 100%;}
+  }
   .div_img--posicion {
+    border: solid black 5px;
+    border-radius: 250px;
+    background-image: url("../assets/img/fondonegro.jpg");
+    display: flex;
+    justify-content: center;
     width: 70%;
     height: 350px;
     margin-left: -200px;
+    animation-name: sucursales  ;
+    animation-duration: 10s;
+    animation-iteration-count: 2;
+    animation-timing-function: ease-in;
   }
   .footer_div--decoracion {
     background-image: url("../assets/img/fondofooterr.jpg");
@@ -1474,6 +1510,11 @@ footer {
     height: 503px;
     list-style-type: none;
     border: solid black 5px;
+    transition: border ;
+  }
+  .section_img--decoracion:hover {
+    border: solid  10px  rgb(255, 165, 112);
+    border-radius: 10px;
   }
   .footer_div--decoracion {
     background-image: url("../assets/img/fondofooterr.jpg");
@@ -1597,6 +1638,13 @@ footer {
     border-radius: 200px;
     background-color: grey;
   }
+  @keyframes sucursales {
+    0% { width: 100%; }
+    30% { transform:rotateY(100deg);}
+    60% { width: 100%; }
+    90% { transform:rotateX(100deg)}
+    100% {width: 100%;}
+  }
   .div_img--posicion {
     border: solid black 5px;
     border-radius: 250px;
@@ -1606,6 +1654,10 @@ footer {
     width: 100%;
     height: 500px;
     margin: 10px;
+    animation-name: sucursales  ;
+    animation-duration: 10s;
+    animation-iteration-count: 2;
+    animation-timing-function: ease-in;
   }
   .footer_div--decoracion {
     background-image: url("../assets/img/fondofooterr.jpg");
