@@ -433,6 +433,11 @@ a {
 .div_img--border {
   border-radius: 28px;
 }
+@keyframes desaparecer {
+  0% {opacity:100%}
+  50% {opacity:0%}
+  100% {opacity:100%}
+}
 .div_img--medidas {
   background-image: url("../assets/img/cartab.jpg");
   height: 610px;
@@ -440,6 +445,10 @@ a {
   border-bottom: 10px solid black;
   background-color: black;
   border-radius: 150px;
+  animation-name: desaparecer;
+  animation-duration: 5s;
+  animation-iteration-count: 2;
+  animation-timing-function: ease-in;
 }
 .div_texto--tipografia {
   display: flex;
@@ -457,6 +466,10 @@ a {
   font-weight: bold;
   font-size: 20px;
   color: white;
+  transition: color;
+}
+.tabla_texto--estilo:hover {
+  color:rgb(255, 196, 0);
 }
 .tabla_acotación--posicion {
   display: flex;
