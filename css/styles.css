@@ -594,13 +594,14 @@ a {
   font-size: 20px;
   color: black;
   font-weight: bold;
-  text-align: center;
+  text-align: left;
   font-family: "Arvo";
   padding: 20px;
-  background-color: rgb(255, 165, 112);
+  background-image:linear-gradient(to left ,  rgb(255, 240, 34), orangered);
+  transition: font-size;
 }
 .main_sesion--form {
-  text-align: center;
+  text-align: left;
   padding: 20px;
   background-image: url("../assets/img/contacto1.jpg");
   background-repeat: round;
@@ -611,10 +612,10 @@ a {
 input,
 textarea,
 select {
-  font-family: "Arvo";
+  font-family: "IM Fell";
   font-weight: 10px;
   border-radius: 20px;
-  background-color: rgb(255, 165, 112);
+  background-image:linear-gradient(to right, orange,red);
 }
 .footer_div--decoracion {
   background-image: url("../assets/img/fondofooterr.jpg");
