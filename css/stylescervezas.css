@@ -33,7 +33,7 @@
   .heightHeder {
     height: 110px;
     background-color:black;
-    position:sticky;
+    position:sticky ;
     top: 0;
   }
   .section_img--decoracion {
