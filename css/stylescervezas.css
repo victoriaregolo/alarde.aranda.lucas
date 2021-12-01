@@ -21,7 +21,7 @@
     top: -100px;
     left: 350px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
   }
   .classNavLi {
     font-size: 30px;
