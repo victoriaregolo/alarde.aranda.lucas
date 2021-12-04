@@ -766,7 +766,12 @@ footer {
     margin: 5px;
     display: flex;
     justify-content: center;
+    background-image: url("../assets/img/fondocarta.jpg");
     transform: skewX(-20deg);
+    transition: margin 3s;
+  }
+  .main_section--iframe:hover {
+    margin: 50px;
   }
   .footer_div--decoracion {
     background-image: url("../assets/img/fondofooterr.jpg");
@@ -1449,6 +1454,12 @@ footer {
     margin: 5px;
     display: flex;
     justify-content: center;
+    background-image: url("../assets/img/fondocarta.jpg");
+    transform: skewX(-20deg);
+    transition: margin 3s;
+  }
+  .main_section--iframe:hover {
+    margin: 50px;
   }
   .footer_div--decoracion {
     background-image: url("../assets/img/fondofooterr.jpg");
