@@ -779,7 +779,7 @@ footer {
   }
   .classNavUl {
     list-style-type: none;
-    margin: 0px 5px 0px -250px !important;
+    margin: 0px 5px 0px -230px !important;
     position: relative;
     display: flex;
     justify-content: flex-start;
@@ -799,17 +799,17 @@ footer {
     top: 0;
   }
   .marginheader {
-    margin-left: 5px !important;
+    margin-left: 10px !important;
   }
   .logo {
     padding: 50px;
-    margin-left: 40px;
+    margin-left: 60px;
     margin-top: -80px;
     margin-bottom: 20px;
   }
   .section_img--decoracion {
     margin: 15px !important;
-    margin-left: -25px !important;
+    margin-left: -5px !important;
     width: 450px;
     height: 503px;
     list-style-type: none;
