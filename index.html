@@ -16,24 +16,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Ewert&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="../css/animate.css">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+    <link rel="stylesheet" href="../css/animate.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/styles.css" />
 </head>
 
 <body>
     <!-- ENCABEZADO -->
-    <!--APERTURA GRID CONTENEDOR PADRE-->
-    <div class="gridContainerPadre">
-        <header class="header--position" class="flex" >   
-                <div>
-                    <a href="index.html">
-                        <img src="assets/img/logo.png" alt="logo" class="div_img--border"/>
-                    </a>
-                </div>
+    <!--APERTURA CONTENEDOR PADRE-->
+    <div class="gridContainerPadreIndex">
+        <header class="header--position" class="flex">
+            <!-- Incertar logo -->
+            <div>
+                <a href="../index.html">
+                    <img src="../assets/img/logo.png" alt="logo" class="div_img--border">
+                </a>
+            </div>
                 <!-- Nav-->
                 <nav>
                     <ul class="classNavUl" >
@@ -53,16 +53,21 @@
                         </li>
                     </ul>
                 </nav>
+            </div>
         </header>
         <!-- FIN ENCABEZADO -->
         <!-- INICIO DE CONTENIDO -->
         <main class="flex">
             <section>
                 <!-- Img-->
-                <div class="main_section--parallax"></div>
+                <div>
+                    <div class="main_section--parallax"></div>
+                </div>
                 <!-- TEXTO-->
-                <div class="main_section--titulos">
-                    <h2>NOSOTROS </h2>
+                <div>
+                    <div class="main_section--titulos">
+                        <h2 class="display-3 font-weight-bold">NOSOTROS</h2>
+                    </div>
                 </div>
                 <div class="main_div--parrafopresentacion">
                     <p>
@@ -83,21 +88,25 @@
                         continua, innovación en procesos,compromiso social y con el medio ambiente.
                     </p>
                 </div>
-                <div class="main_section--titulos" >
-                    <h2>Nuestra Fábrica</h2>
+                <div class="row">
+                    <div class="main_section--titulos col-lg-12 col-xs-12">
+                        <h2 class="display-3 font-weight-bold">Nuestra Fábrica</h2>
+                    </div>
                 </div>
                 <!-- IFRAME -->
-                <div class="main_section--iframe">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/PMa9LWXsetw"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
+                <div class="row">
+                    <div class="main_section--iframe col-lg-12 col-xs-12">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/PMa9LWXsetw"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
                 </div>
             </section>
         </main>
         <!-- CIERRE DE CONTENIDO -->
         <!-- INICIO FOOTER -->
-        <footer class="flex">
+        <footer class="flex container-fluid flex">
             <div class="footer_div--decoracion">
                 <!-- CONTACTO -->
                 <div class="footer_leetralogo--posicion-padre">
@@ -131,8 +140,15 @@
     <!--CIERRE GRID CONTENEDOR PADRE-->
     <script src="js/wow.min.js"></script>
     <script>
-    new WOW().init();
+        new WOW().init();
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <!--SCRIPTS DE BOO-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
