@@ -25,13 +25,11 @@ a:hover {
 .classNavUl {
   list-style-type: none;
   position: relative;
-  margin: 0px 5px 0px -102px !important;
   top: -100px;
-  left : 350px;
+  left: -5px !important;
   padding: 0px;
   display: flex;
   justify-content:center !important;
-  margin-left: -100px !important;
 }
 .classNavLi {
   font-size: 30px;
@@ -75,9 +73,9 @@ h2 {
   background-size: cover;
   background-attachment: fixed;
   height: 610px;
-  width: 100% !important;
+  width: 99% !important;
   border: 4px solid black !important;
-  margin-left: 5px !important;
+  margin-left: 7px !important;
 }
 .main_section--iframe {
   margin-left: -15px !important;
@@ -710,7 +708,6 @@ footer {
     display: flex;
     justify-content: flex-end;
     width: 100% !important;
-    margin-left: -350px !important;
   }
   .classNavLi {
     font-size: 15px;
@@ -757,7 +754,7 @@ footer {
     height: 400px;
     width: 90%;
     border-bottom: 5px solid black;
-    margin-left: -1px !important;
+    margin: 0px;
   }
   .main_section--iframe {
     display: flex;
@@ -1269,7 +1266,7 @@ footer {
   }
   .classNavUl {
     list-style-type: none;
-    margin: 2px 5px 0px -250px;
+    margin: 2px 5px 0px 0px;
     display: flex;
     justify-content: flex-end;
     width: 100% !important;
