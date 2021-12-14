@@ -1231,6 +1231,7 @@ footer {
   /*CSS DE LA PAG CONTACTO*/
   * {
     margin: 0%;
+    overflow-x: hidden !important;
   }
   body {
     background-image: url("../assets/img/fonfoblanco.jpg");
