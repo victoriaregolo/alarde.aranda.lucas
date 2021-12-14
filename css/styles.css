@@ -24,13 +24,13 @@ a:hover {
 }
 .classNavUl {
   list-style-type: none;
-  margin: 0px !important;
   position: relative;
   top: -100px;
   left: -5px !important;
   padding: 0px;
   display: flex;
   justify-content:center !important;
+  margin-right: -10px !important;
 }
 .classNavLi {
   font-size: 30px;
@@ -1031,6 +1031,12 @@ footer {
     animation-duration: 2s !important;
     animation-iteration-count: 1 !important;
     animation-timing-function: ease-in;
+  }
+  .suc1 {
+    margin-left: -270px !important;
+  }
+  .suc3 {
+    margin-left: -300px !important;
   }
   .footer_div--decoracion {
     background-image: url("../assets/img/fondofooterr.jpg");
