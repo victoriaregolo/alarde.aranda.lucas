@@ -25,12 +25,13 @@ a:hover {
 .classNavUl {
   list-style-type: none;
   position: relative;
+  margin: 0px 5px 0px -102px !important;
   top: -100px;
-  left: -5px !important;
+  left : 350px;
   padding: 0px;
   display: flex;
   justify-content:center !important;
-  margin-right: -10px !important;
+  margin-left: -100px !important;
 }
 .classNavLi {
   font-size: 30px;
@@ -341,6 +342,7 @@ a {
   animation-duration: 2s !important;
   animation-iteration-count: 1 !important;
   animation-timing-function: ease-in;
+  margin-left: -20px !important;
 }
 .footer_div--decoracion {
   background-image: url("../assets/img/fondofooterr.jpg");
@@ -708,6 +710,7 @@ footer {
     display: flex;
     justify-content: flex-end;
     width: 100% !important;
+    margin-left: -350px !important;
   }
   .classNavLi {
     font-size: 15px;
@@ -754,7 +757,7 @@ footer {
     height: 400px;
     width: 90%;
     border-bottom: 5px solid black;
-    margin: 0px;
+    margin-left: -1px !important;
   }
   .main_section--iframe {
     display: flex;
